@@ -125,3 +125,9 @@ class Teacher extends Person {
         this.degree = degree
     }
 }
+
+const rs1 = list.filter(item => item%2==0);
+console.log (rs1);
+
+const rs2 = list.filter (item => item>10);
+console.log (rs2);
